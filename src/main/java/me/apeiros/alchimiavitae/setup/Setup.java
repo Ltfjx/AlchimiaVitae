@@ -95,62 +95,62 @@ public class Setup {
 
     public static void setupResearches(AlchimiaVitae p) {
         new Research(new NamespacedKey(p, "soul"), 131072,
-                "Breaking the cycle of life and death", 25)
+                "破坏生死轮回", 25)
                 .addItems(Items.CONDENSED_SOUL, Items.SOUL_COLLECTOR)
                 .register();
 
         new Research(new NamespacedKey(p, "magic_plants"), 131073,
-                "Two polar opposites", 30)
+                "两极对立", 30)
                 .addItems(Items.PLANT_INFUSION_CHAMBER, Items.GOOD_MAGIC_PLANT, Items.EVIL_MAGIC_PLANT)
                 .register();
 
         new Research(new NamespacedKey(p, "magic_essence"), 131074,
-                "Grinding it down", 10)
+                "磨它下来", 10)
                 .addItems(Items.GOOD_ESSENCE, Items.EVIL_ESSENCE)
                 .register();
 
         new Research(new NamespacedKey(p, "exp_crystals"), 131075,
-                "Crystalline experience", 21)
+                "结晶化经验", 21)
                 .addItems(Items.EXP_CRYSTALLIZER, Items.EXP_CRYSTAL)
                 .register();
 
         new Research(new NamespacedKey(p, "magic_steel"), 131076,
-                "Mystical metals", 16)
+                "神秘金属", 16)
                 .addItems(Items.DARKSTEEL, Items.ILLUMIUM)
                 .register();
 
         new Research(new NamespacedKey(p, "divine_altar"), 131077,
-                "The long-lost cousin of the Ancient Altar", 45)
+                "古代祭坛失散多年的兄弟", 45)
                 .addItems(Items.DIVINE_ALTAR)
                 .register();
 
         new Research(new NamespacedKey(p, "metal_amalgamation"), 131078,
-                "An amalgamation of metallic substances", 19)
+                "一种金属物质的混和物", 19)
                 .addItems(Items.MOLTEN_MYSTERY_METAL, Items.MYSTERY_METAL)
                 .register();
 
         new Research(new NamespacedKey(p, "ornate_cauldron"), 131079,
-                "A contraption to brew advanced potions", 35)
+                "用于酿造高级药水的装置", 35)
                 .addItems(Items.ORNATE_CAULDRON)
                 .register();
 
         new Research(new NamespacedKey(p, "potion_of_osmosis"), 131080,
-                "Osmosis and absorption", 30)
+                "渗透与吸收", 30)
                 .addItems(Items.POTION_OF_OSMOSIS)
                 .register();
 
         new Research(new NamespacedKey(p, "benevolent_brew"), 131081,
-                "A blessing from Gaia herself", 35)
+                "盖亚本人的祝福", 35)
                 .addItems(Items.BENEVOLENT_BREW)
                 .register();
 
         new Research(new NamespacedKey(p, "malevolent_concoction"), 131082,
-                "A substance with a slightly corrupted tinge", 35)
+                "一种带有轻微腐坏色彩的物质", 35)
                 .addItems(Items.MALEVOLENT_CONCOCTION)
                 .register();
 
         new Research(new NamespacedKey(p, "altar_of_infusion"), 131083,
-                "The ultimate altar to energize your items", 30)
+                "为你的物品注入活力的终极祭坛", 30)
                 .addItems(Items.ALTAR_OF_INFUSION)
                 .register();
     }
@@ -176,7 +176,7 @@ public class Setup {
                     null, SlimefunItems.DAMASCUS_STEEL_INGOT, null
             }), new SlimefunItemStack(SlimefunItems.REINFORCED_ALLOY_INGOT, 2));
 
-            item = new SlimefunItemStack("AV_REINFORCED_ALLOY_INGOT", Material.IRON_INGOT, "&b&lReinforced Alloy Ingot");
+            item = new SlimefunItemStack("AV_REINFORCED_ALLOY_INGOT", Material.IRON_INGOT, "&b&l强化合金锭");
 
             if (useSlimefunItemCustomModelData) {
                 item.setCustomModel(cts.getModelData("REINFORCED_ALLOY_INGOT"));
@@ -197,7 +197,7 @@ public class Setup {
                     null, SlimefunItems.STEEL_INGOT, null
             }), new SlimefunItemStack(SlimefunItems.HARDENED_METAL_INGOT, 2));
 
-            item = new SlimefunItemStack("AV_HARDENED_METAL_INGOT", Material.IRON_INGOT, "&b&lHardened Metal");
+            item = new SlimefunItemStack("AV_HARDENED_METAL_INGOT", Material.IRON_INGOT, "&b&l硬化金属");
 
             if (useSlimefunItemCustomModelData) {
                 item.setCustomModel(cts.getModelData("HARDENED_METAL_INGOT"));
@@ -218,7 +218,7 @@ public class Setup {
                     null, SlimefunItems.CARBON, null
             }), new SlimefunItemStack(SlimefunItems.STEEL_INGOT, 8));
 
-            item = new SlimefunItemStack("AV_STEEL_INGOT", Material.IRON_INGOT, "&bSteel Ingot");
+            item = new SlimefunItemStack("AV_STEEL_INGOT", Material.IRON_INGOT, "&b钢锭");
 
             if (useSlimefunItemCustomModelData) {
                 item.setCustomModel(cts.getModelData("STEEL_INGOT"));
@@ -239,7 +239,7 @@ public class Setup {
                     null, SlimefunItems.COMPRESSED_CARBON, null
             }), new SlimefunItemStack(SlimefunItems.DAMASCUS_STEEL_INGOT, 8));
 
-            item = new SlimefunItemStack("AV_DAMASCUS_STEEL_INGOT", Material.IRON_INGOT, "&bDamascus Steel Ingot");
+            item = new SlimefunItemStack("AV_DAMASCUS_STEEL_INGOT", Material.IRON_INGOT, "&b大马士革钢锭");
 
             if (useSlimefunItemCustomModelData) {
                 item.setCustomModel(cts.getModelData("DAMASCUS_STEEL_INGOT"));
@@ -260,7 +260,7 @@ public class Setup {
                     new ItemStack(Material.COAL), new ItemStack(Material.ROTTEN_FLESH), new ItemStack(Material.COAL)
             }), SlimefunItems.COMPRESSED_CARBON);
 
-            item = new SlimefunItemStack("AV_COMPRESSED_CARBON", HeadTexture.COMPRESSED_CARBON, "&cCompressed Carbon");
+            item = new SlimefunItemStack("AV_COMPRESSED_CARBON", HeadTexture.COMPRESSED_CARBON, "&c压缩碳");
 
             if (useSlimefunItemCustomModelData) {
                 item.setCustomModel(cts.getModelData("COMPRESSED_CARBON"));
@@ -321,10 +321,10 @@ public class Setup {
         boolean totemStorageEnabled = p.getConfig().getBoolean("options.infusions.infusion-totemstorage");
 
         // ItemStacks
-        CustomItem validInfuseAxe = new CustomItem(Material.DIAMOND_AXE, "&b&lA valid axe to infuse", "&aa &6gold&a, &firon&a, &bdiamond&a,", "&aor &cnetherite &aaxe will do");
-        CustomItem validInfuseChestplate = new CustomItem(Material.DIAMOND_CHESTPLATE, "&b&lA valid chestplate to infuse", "&aa &6gold&a, &firon&a, &bdiamond&a,", "&aor &cnetherite &achestplate will do");
-        CustomItem validInfuseBow = new CustomItem(Material.BOW, "&b&lA valid bow to infuse", "&aA bow or crossbow will do");
-        CustomItem validInfuseHoe = new CustomItem(Material.DIAMOND_HOE, "&b&lA valid hoe to infuse", "&aa &6gold&a, &firon&a, &bdiamond&a,", "&aor &cnetherite &ahoe will do");
+        CustomItem validInfuseAxe = new CustomItem(Material.DIAMOND_AXE, "&b&l一个有效的斧头来注入", "&6金&a, &f铁&a, &b钻石&a,", "&a或&c狱髓&a斧头");
+        CustomItem validInfuseChestplate = new CustomItem(Material.DIAMOND_CHESTPLATE, "&b&l一个有效的胸甲来注入", "&6金&a, &f铁&a, &b钻石&a,", "&a或&c狱髓&a胸甲");
+        CustomItem validInfuseBow = new CustomItem(Material.BOW, "&b&l一个有效的弓来注入", "&a弓或弩");
+        CustomItem validInfuseHoe = new CustomItem(Material.DIAMOND_HOE, "&b&l一个有效的锄头来注入", "&6金&a, &f铁&a, &b钻石&a,", "&a或&c狱髓&a锄头");
         SlimefunItemStack item;
 
         // Register Infusions
@@ -335,11 +335,11 @@ public class Setup {
                     new ItemStack(Material.REDSTONE_BLOCK), SlimefunItems.WITHER_PROOF_OBSIDIAN, new ItemStack(Material.TNT)
             }), axeInfusionDestructiveCrits);
 
-            item = new SlimefunItemStack("AV_DESTRUCTIVE_CRITS_INFUSION", Material.TNT, "&c&lDestructive Criticals",
-                    "&41/20 chance to give opponent Mining Fatigue III for 8 seconds on crit",
-                    "&41/5 chance to give opponent Slowness I for 15 seconds on crit",
-                    "&41/5 chance to give opponent Weakness I for 15 seconds on crit",
-                    "&4Deals 0-5 extra damage to opponent's armor on crit");
+            item = new SlimefunItemStack("AV_DESTRUCTIVE_CRITS_INFUSION", Material.TNT, "&c&l破坏性爆击",
+                    "&4爆击时有 1/20 机率使对手挖掘疲劳 III 持续8秒",
+                    "&4爆击时有 1/5 机率使对手缓速 I 持续15秒",
+                    "&4爆击时有 1/5 机率使对手虚弱 I 持续15秒",
+                    "&4爆击时对对手的护甲造成0-5的额外伤害");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     new ItemStack(Material.TNT), SlimefunItems.EXPLOSIVE_PICKAXE, new ItemStack(Material.STONECUTTER),
@@ -355,9 +355,9 @@ public class Setup {
                     new ItemStack(Material.PHANTOM_MEMBRANE), Items.CONDENSED_SOUL, new ItemStack(Material.PHANTOM_MEMBRANE)
             }), axeInfusionPhantomCrits);
 
-            item = new SlimefunItemStack("AV_PHANTOM_CRITS_INFUSION", Material.PHANTOM_MEMBRANE, "&bPhantom Criticals",
-                    "&a1/4 chance to deal (your attack damage to the power of 1.15",
-                    "&amultiplied by 5/8) extra damage on a crit, bypassing armor");
+            item = new SlimefunItemStack("AV_PHANTOM_CRITS_INFUSION", Material.PHANTOM_MEMBRANE, "&b幻影性爆击",
+                    "&a1/4 机率造成 (你的攻击伤害为 1.15",
+                    "&a乘以 5/8) 爆击时额外的伤害并绕过护甲防御");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     new ItemStack(Material.PHANTOM_MEMBRANE), SlimefunItems.MAGICAL_GLASS, new ItemStack(Material.PHANTOM_MEMBRANE),
@@ -373,9 +373,9 @@ public class Setup {
                     new ItemStack(Material.SHULKER_BOX), SlimefunItems.INFUSED_ELYTRA, SlimefunItems.STEEL_THRUSTER
             }), bowInfusionTrueAim);
 
-            item = new SlimefunItemStack("AV_TRUE_AIM_INFUSION", Material.SHULKER_SHELL, "&dTrue Aim",
-                    "&5Partially using the levitation charm", "&5Shulkers use to terminate their victims,",
-                    "&5a bow infused with this magic can fire", "&5arrows that are not affected by gravity");
+            item = new SlimefunItemStack("AV_TRUE_AIM_INFUSION", Material.SHULKER_SHELL, "&d真正的自动瞄准",
+                    "&5部分使用悬浮符咒", "&5用界伏蚌来处决它们的受害者,",
+                    "&5注入这种魔法可使弓发射时", "&5箭矢不受重力影响");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     SlimefunItems.SYNTHETIC_SHULKER_SHELL, SlimefunItems.INFUSED_MAGNET, SlimefunItems.STAFF_WIND,
@@ -391,9 +391,9 @@ public class Setup {
                     SlimefunItems.ELECTRO_MAGNET, new ItemStack(Material.PISTON), SlimefunItems.TALISMAN_TRAVELLER
             }), bowInfusionForceful);
 
-            item = new SlimefunItemStack("AV_FORCEFUL_INFUSION", Material.PISTON, "&2Forceful",
-                    "&aThis infusion uses mechanical", "&adevices and electromagnets to accelerate",
-                    "&aprojectiles to blistering speeds", "&aArrows will travel 2x farther and faster");
+            item = new SlimefunItemStack("AV_FORCEFUL_INFUSION", Material.PISTON, "&2强力性",
+                    "&a这种注入使用机械", "&a装置与电磁来加速",
+                    "&a弹射物以极快的速度", "&a箭矢将会以两倍远与更快");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     SlimefunItems.ELECTRO_MAGNET, new ItemStack(Material.PISTON), SlimefunItems.STAFF_WIND,
@@ -409,10 +409,10 @@ public class Setup {
                     new ItemStack(Material.TNT), SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.LAVA_CRYSTAL
             }), bowInfusionVolatile);
 
-            item = new SlimefunItemStack("AV_VOLATILE_INFUSION", Material.FIRE_CHARGE, "&4&lVolatility",
-                    "&cThis extremely dangerous infusion creates", "&cspheres made of pure superheated lava,",
-                    "&cdelivering a mini-inferno to the target", "&41/7 chance to fire a large fireball",
-                    "&46/7 chance to fire a small fireball");
+            item = new SlimefunItemStack("AV_VOLATILE_INFUSION", Material.FIRE_CHARGE, "&4&l挥发性",
+                    "&c这种极其危险的注入物会造成", "&c纯粹过热的熔岩所制成的球体,",
+                    "&c向目标传送至迷你地狱", "&41/7 机率发射一颗火球",
+                    "&46/7 机率发射小火球");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     new ItemStack(Material.BLAZE_ROD), SlimefunItems.STAFF_FIRE, SlimefunItems.TALISMAN_FIRE,
@@ -428,9 +428,9 @@ public class Setup {
                     new ItemStack(Material.ENCHANTED_GOLDEN_APPLE), SlimefunItems.MEDICINE, SlimefunItems.MAGIC_SUGAR
             }), bowInfusionHealing);
 
-            item = new SlimefunItemStack("AV_HEALING_INFUSION", Material.REDSTONE, "&cHealing",
-                    "&cThis infusion will heal hit entities", " &cand recover their &4health", "" +
-                    "&aHeals for the same amount that a bow shot would damage");
+            item = new SlimefunItemStack("AV_HEALING_INFUSION", Material.REDSTONE, "&c治疗性",
+                    "&c这种注入物将治疗被击中的实体", " &c并恢复它们的&4健康", "" +
+                    "&a治疗量与弓箭伤害相同");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     Items.BENEVOLENT_BREW, SlimefunItems.MEDICINE, SlimefunItems.VITAMINS,
@@ -446,9 +446,9 @@ public class Setup {
                     new ItemStack(Material.BONE_BLOCK), Items.GOOD_MAGIC_PLANT, new ItemStack(Material.GRINDSTONE)
             }), hoeInfusionAutoReplant);
 
-            item = new SlimefunItemStack("AV_AUTO_REPLANT_INFUSION", Material.WHEAT, "&aAutomatic Re-plant",
-                    "&2Any fully-grown crops broken",
-                    "&2with a hoe infused with this", "&2will &aautomatically &2be replanted");
+            item = new SlimefunItemStack("AV_AUTO_REPLANT_INFUSION", Material.WHEAT, "&a自动化重种",
+                    "&2任何完全生长的农作物",
+                    "&2使用此注入过的锄头破坏", "&2会&a自动&2重新种植");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     new ItemStack(Material.COMPOSTER), Items.GOOD_ESSENCE, new ItemStack(Material.WATER_BUCKET),
@@ -464,10 +464,10 @@ public class Setup {
                     SlimefunItems.ESSENCE_OF_AFTERLIFE, SlimefunItems.ENERGIZED_CAPACITOR, SlimefunItems.ESSENCE_OF_AFTERLIFE
             }), chestplateInfusionTotemBattery);
 
-            item = new SlimefunItemStack("AV_TOTEM_BATTERY_INFUSION", Material.TOTEM_OF_UNDYING, "&6&lTotem Battery",
-                    "&eA built-in pocket dimension that holds the energy", "&eof up to 8 Totems of Undying",
-                    "&6Store a Totem in this apparatus", "&6by &e&lShift-Right-Clicking &6with a Totem in the hand",
-                    "&6while the infused chestplate is worn");
+            item = new SlimefunItemStack("AV_TOTEM_BATTERY_INFUSION", Material.TOTEM_OF_UNDYING, "&6&l图腾电池",
+                    "&e一个内置的维度, 可容纳", "&e8个不死图腾的能量",
+                    "&6在这个装置中储存图腾", "&6Shift-右键点击 &6与手里拿着图腾",
+                    "&6当配戴有注入此注入物的胸甲时");
 
             new SlimefunItem(Categories.INFUSIONS, item, RecipeTypes.INFUSION_ALTAR_TYPE, new ItemStack[] {
                     SlimefunItems.NECROTIC_SKULL, Items.CONDENSED_SOUL, Items.BENEVOLENT_BREW,
@@ -477,3 +477,4 @@ public class Setup {
         }
     }
 }
+

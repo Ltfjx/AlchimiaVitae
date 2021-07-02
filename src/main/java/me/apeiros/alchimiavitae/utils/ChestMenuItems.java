@@ -20,30 +20,30 @@ public class ChestMenuItems {
     public static final ItemStack BG = ChestMenuUtils.getBackground();
 
     public static final ItemStack STATUS_BG = new CustomItem(Material.ORANGE_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#ff3b3b:#ff5c74>Status</gradient>")));
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#ff3b3b:#ff5c74>状态</gradient>")));
 
     public static final ItemStack OUT_BG = new CustomItem(Material.CYAN_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>Output</gradient>")));
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>输出</gradient>")));
 
     public static final ItemStack OUT_BG_ALT = new CustomItem(Material.BLUE_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>Output</gradient>")));
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>输出</gradient>")));
 
     public static final ItemStack OUT_BG_CLICK_CRAFT = new CustomItem(Material.CYAN_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>Output</gradient>")),
-            "&aClick to craft");
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>输出</gradient>")),
+            "&a点击制作");
 
     public static final ItemStack IN_BG = new CustomItem(Material.ORANGE_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#ff68fc:#ff9a5c>Input</gradient>")));
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#ff68fc:#ff9a5c>输入</gradient>")));
 
     public static final ItemStack IN_BG_CLICK_CRAFT = new CustomItem(Material.ORANGE_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#ff68fc:#ff9a5c>Input</gradient>")),
-            "&aClick to craft");
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#ff68fc:#ff9a5c>输入</gradient>")),
+            "&a点击制作");
 
     public static final ItemStack CRAFT_BTN = new CustomItem(Material.LIME_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>Craft</gradient>")),
-            "&aClick to craft");
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>制作</gradient>")),
+            "&a点击制作");
 
     public static final ItemStack CRAFT_BG = new CustomItem(Material.CYAN_STAINED_GLASS_PANE,
-            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>Craft</gradient>")));
+            BukkitComponentSerializer.legacy().serialize(MM.parse("<gradient:#39f792:#5c95ff>制作</gradient>")));
 
 }
